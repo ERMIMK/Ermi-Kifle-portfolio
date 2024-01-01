@@ -7,31 +7,77 @@
     <title>Ermi Kifle Portfolio Home</title>
 
     <link rel="stylesheet" href="CSS/main.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-            <h3> Ermi Kifle</h3>
+            <!-- CONTAINS THE HEADER HAMBERGER MENU AND NAME-->
+            <section class="title-and-hamburger">
+                <h3> <a href="index.html"> Ermiyas Kifle</a></h3>
+                <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+            </section>
+
+            <!-- NAVIGATION MENUS -->
+            <ul class="nav-menu">
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="experience.html"> Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Assets/pdf/Summer_2024_resume.pdf" class="resume-link" download>Resume</a></li> 
+            </ul>
 
         </nav>
+        <!-- SCRIPT CONTAINING ANIMATION FOR THE HAMBERGER -->
+        <script src="scripts/main.js"></script>
     </header>
 
     <main>
         <article>
-            <section>
+            <!-- NAME AND INTRODUCTION-->
+            <h1 class="introduction-header">
+                <span class="greeting">Hello,</span><br>
+                <span class="name">I'm Ermi Kifle</span>
+            </h1>  
+            
+            <!-- SECTION CONTAINING MAIN IMAGE AND OVERVIEW -->
+            <section> 
+                <img src="Assets/Img/main_profile_img.PNG" alt="Ermi Kifle profile image" width="310" height="300" loading="lazy">
+                <p>
+                    A passionate and dedicated computer science student eager to embark on a 
+                    fulfilling career in the world of technology. As I approach the exciting 
+                    transition from academia to industry, I am thrilled to share my journey, 
+                    skills, and aspirations with you.
+                </p>
 
             </section>
             
-            <section>
-
+            <!-- SECTION CONTAINING THE LINKS FOR LINKEDIN ACC AND GITHUB-->
+            <section class="link-section">
+                <div>
+                    <a href="https://github.com/ERMIMK" target="_blank"> Github </a>
+                    <a href="https://www.linkedin.com/in/ermiyas-kifle-69443a195" target="_blank"> linkedin </a>
+                </div>
             </section>
         </article>
     </main>
 
     <footer>
 
+        <!-- FOOTER : IMPORTANT NOT COMPLETED AND NOT IN USE OF THE USER PAGES -->
+        <section>
+            <h1> Social media and Contact</h1>
+            <p>Contact: <a href="mailto:your.ermimesfin@yahoo.com">ermimesfin@yahoo.com</a></p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/ermiyas-kifle-69443a195">LinkedIn</a></li>
+                <li><a href="https://github.com/ERMIMK">GitHub</a></li>
+            </ul>
+            <p><a href="pages/privacy-policy.html">Privacy Policy</a></p>
+            <p>&copy; 2023 <a href="about.html">Ermi Kifle</a></p>
+            
+        </section>
     </footer>
+
 </body>
 </html>
