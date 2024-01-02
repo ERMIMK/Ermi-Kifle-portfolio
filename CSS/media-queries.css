@@ -1,0 +1,59 @@
+/* MEDIA QUERIES */
+/* index.html main Image */
+@media (max-width: 768px) {
+    main section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    img {
+        width: 75%;
+        height: 75%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .link-section {
+        margin-left: 40%;
+        padding: 20px;
+        margin: 15px;
+
+    }
+}
+
+/* Mobile and smaller devices */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px 20px; /* Adjust padding */
+    }
+
+    nav h3 {
+        margin-bottom: 10px; /* Adds space between title and menu */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack list items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    nav li {
+        margin: 5px 0; /* Adjust spacing for vertical layout */
+    }
+
+    .hamburger {
+        display: block; /* Show the hamburger icon */
+    }
+
+    .nav-menu {
+        display: none; /* Hide the menu initially */
+        flex-direction: column; /* Stack items vertically */
+        width: 100%; /* Full width */
+    }
+
+    /* When menu is toggled on */
+    .nav-menu.active {
+        display: flex; /* Show the menu */
+    }
+}
+
