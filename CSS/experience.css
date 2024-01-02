@@ -1,0 +1,44 @@
+main div {
+    background: #1f1f1f; 
+    color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    height: 450px;
+}
+
+main h2 {
+    max-width: 500px;
+}
+
+main section {
+    padding-bottom: 40px;
+    align-items: center; 
+    justify-content: center; 
+}
+
+main section a {
+    display: inline-block;
+    padding: 10px 40px;
+    margin: 10px;
+    text-decoration: none;
+    color: #4CAF50;
+    border: 3px solid #4CAF50;
+    border-radius: 7px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1.1em;
+}
+
+
+main section a:hover, nav a:focus {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.article-mod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

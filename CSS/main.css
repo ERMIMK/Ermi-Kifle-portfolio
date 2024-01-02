@@ -15,6 +15,28 @@ header {
     padding: 10px 0;
 }
 
+main {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+article {
+    background: #3d3d3d; 
+    color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .pages-title {
     font-size: 50px;
     padding-left: 30px;
@@ -144,21 +166,6 @@ footer p {
 
 /* INDEX.HTML STYLE */
 
-main {
-    max-width: 1500px;
-    margin: auto;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-}
-
-article {
-    background: #3d3d3d; 
-    color: #ffffff; 
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 20px;
-    margin-bottom: 0px;
-}
 
 .introduction-header {
     text-align: left; 
@@ -183,11 +190,7 @@ article {
 
 }
 
-main section {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
+
 
 img {
     border-radius: 50%; /* Circular image */
