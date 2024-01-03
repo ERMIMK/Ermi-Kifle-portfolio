@@ -2,7 +2,7 @@
 
 
 * {
-    cursor: url('/Assets/Img/cursor/cursor-img.png'), auto;
+    cursor: url('cursor/cursor-img.png'), auto;
     
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 body a {
-    cursor: url('/Assets/Img/cursor/pointer-img.png'), auto;
+    cursor: url('cursor/pointer-img.png'), auto;
 }
 
 header {
@@ -98,7 +98,7 @@ nav a {
 nav a:hover, nav a:focus {
     background-color: #575757; 
     color: #4CAF50;
-    cursor: url('/Assets/Img/cursor/pointer-img.png'), auto;
+    cursor: url('cursor/pointer-img.png'), auto;
 }
 
 nav a.active {
@@ -136,7 +136,7 @@ nav a.active {
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
-    cursor: url('/Assets/Img/cursor/pointer-img.png'), auto;
+    cursor: url('cursor/pointer-img.png'), auto;
 }
 
 .nav-menu {
@@ -163,7 +163,7 @@ footer a {
 
 footer a:hover {
     color: #f39c12;
-    cursor: url('/Assets/Img/cursor/pointer-img.png'), auto;
+    cursor: url('cursor/pointer-img.png'), auto;
 }
 
 footer ul {
@@ -252,5 +252,5 @@ p {
 .link-section a:hover {
     background-color: #4CAF50;
     color: #ffffff;
-    cursor: url('/Assets/Img/cursor/pointer-img.png'), auto;
+    cursor: url('cursor/pointer-img.png'), auto;
 }
