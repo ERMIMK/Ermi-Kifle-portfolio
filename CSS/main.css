@@ -1,4 +1,12 @@
 /* General Styles */
+
+
+* {
+    cursor: url('/Assets/Img/cursor/cursor-img.png'), auto;
+    
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #333;
@@ -8,11 +16,16 @@ body {
     padding: 20px 0;
 }
 
+body a {
+    cursor: url('/Assets/Img/cursor/pointer-img.png'), auto;
+}
+
 header {
-    background-color: #333; /* Dark background for the header */
+    background-color: #333; 
     color: white;
     text-align: center;
     padding: 10px 0;
+    
 }
 
 main {
@@ -20,6 +33,7 @@ main {
     margin: auto;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 article {
@@ -49,62 +63,66 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
+    
 }
 
 nav h3 {
     font-size: 24px;
-    margin: 0; /* Removes the default margin */
-    padding: 0; /* Adjust padding as needed */
+    margin: 0; 
+    padding: 0; 
 }
 
 nav ul {
     font-size: 17px;
-    list-style: none; /* Removes default list styling */
-    padding: 0; /* Removes default padding */
-    margin: 0; /* Removes default margin */
-    display: flex; /* Aligns items in a row */
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+    display: flex; 
+    
 }
 
 nav li {
-    margin: 0 15px; /* Spacing between items */
+    margin: 0 15px;
+   
 }
 
 nav a {
-    text-decoration: none; /* Removes underline from links */
-    color: white; /* White text color */
-    font-weight: bold; /* Makes the font bold */
-    padding: 5px 10px; /* Padding around link text for better click area */
-    border-radius: 5px; /* Optional: Rounds corners of the link background */
-    transition: background-color 0.3s; /* Smooth background color transition */
+    text-decoration: none;
+    color: white; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    border-radius: 5px;
+    transition: background-color 0.3s; 
 }
 
 nav a:hover, nav a:focus {
-    background-color: #575757; /* Darkens the item on hover/focus */
+    background-color: #575757; 
     color: #4CAF50;
+    cursor: url('/Assets/Img/cursor/pointer-img.png'), auto;
 }
 
 nav a.active {
-    background-color: #4CAF50; /* Green background for the active page */
+    background-color: #4CAF50;
     color: white;
 }
 
 .resume-link {
-    color: #4CAF50; /* Change color - choose something that stands out */
-    font-weight: bold; /* Make it bold */
-    border: 2px solid #4CAF50; /* Add a border */
-    padding: 5px 15px; /* Adjust padding */
-    border-radius: 5px; /* Rounded corners */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    color: #4CAF50; 
+    font-weight: bold; 
+    border: 2px solid #4CAF50;
+    padding: 5px 15px; 
+    border-radius: 5px; 
+    transition: all 0.3s ease; 
 }
 
 .resume-link:hover, .resume-link:focus {
-    background-color: #4CAF50; /* Background color on hover */
-    color: white; /* Text color on hover */
-    text-decoration: none; /* Remove text underline */
+    background-color: #4CAF50; 
+    color: white; 
+    text-decoration: none; 
 }
 
 .hamburger {
-    display: none; /* Hidden by default */
+    display: none; 
     font-size: 24px; 
     background: none;
     border: none;
@@ -118,11 +136,11 @@ nav a.active {
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
+    cursor: url('/Assets/Img/cursor/pointer-img.png'), auto;
 }
 
 .nav-menu {
-    display: flex; /* Default display */
-    /* ... other styles ... */
+    display: flex;
 }
 
 
@@ -145,6 +163,7 @@ footer a {
 
 footer a:hover {
     color: #f39c12;
+    cursor: url('/Assets/Img/cursor/pointer-img.png'), auto;
 }
 
 footer ul {
@@ -163,6 +182,7 @@ footer p {
     margin: 5px 0; 
     padding-left: 40px;
 }
+
 
 /* INDEX.HTML STYLE */
 
@@ -193,8 +213,8 @@ footer p {
 
 
 img {
-    border-radius: 50%; /* Circular image */
-    max-width: 100%; /* Responsive image */
+    border-radius: 50%;
+    max-width: 100%; 
     border: 4px solid #333333; 
     margin: 70px;
     margin-left: 10%;
@@ -232,4 +252,5 @@ p {
 .link-section a:hover {
     background-color: #4CAF50;
     color: #ffffff;
+    cursor: url('/Assets/Img/cursor/pointer-img.png'), auto;
 }
