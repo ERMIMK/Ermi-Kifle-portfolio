@@ -44,7 +44,7 @@ section ul {
     top: 15px;
     width: 18px;
     height: 18px;
-    background: url(cursor/right-thin-chevron.svg) no-repeat 0 0;
+    background: url("cursor/right-thin-chevron.png") no-repeat 0 0;
 }
 
 .collapsible label:hover {
@@ -95,6 +95,7 @@ section ul {
 .collapsible-text p {
     padding-left: 15px;
     padding-right: 15px;
+    font-size: medium;
 }
 
 .relevant-skills{
