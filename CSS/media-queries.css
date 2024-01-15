@@ -32,6 +32,14 @@
         text-align: left;
         
     }
+    .skills-main {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .skills-main ul {
+
+        padding-left: 10px;
+    }
 
 
 }

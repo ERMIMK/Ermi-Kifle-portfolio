@@ -4,6 +4,10 @@ section ul {
    
 }
 
+a {
+    color: #4CAF50;
+}
+
 .skills-list{
     justify-content: center;
 }
