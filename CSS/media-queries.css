@@ -19,6 +19,21 @@
         margin: 15px;
 
     }
+    .experience-sections ul {
+        list-style: none;
+    }
+
+    .experience-sections div {
+        height: auto;
+
+    }
+    p {
+        margin-left: auto;
+        text-align: left;
+        
+    }
+
+
 }
 
 /* Mobile and smaller devices */
