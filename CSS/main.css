@@ -161,10 +161,11 @@ footer a {
     transition: color 0.3s; 
 }
 
-footer a:hover {
+/*footer a:hover {
     color: #f39c12;
     cursor: url('cursor/pointer-img.png'), auto;
 }
+*/
 
 footer ul {
     list-style-type: none; 
