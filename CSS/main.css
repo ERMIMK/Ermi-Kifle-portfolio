@@ -1,11 +1,6 @@
 /* General Styles */
 
 
-* {
-    cursor: url('cursor/cursor-img.png'), auto;
-    
-}
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -16,9 +11,6 @@ body {
     padding: 20px 0;
 }
 
-body a {
-    cursor: url('cursor/pointer-img.png'), auto;
-}
 
 header {
     background-color: #333; 
